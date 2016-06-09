@@ -10,4 +10,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
 end
 
-# RAILS_ENV=mysql bundle exec rails server -b 0.0.0.0
+
+# bundle exec rails server -b 0.0.0.0
