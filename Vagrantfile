@@ -11,4 +11,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 end
 
 
+# To run the app in the vagrant box:
+#
+# vagrant ssh
+# cd /vagrant
 # bundle exec rails server -b 0.0.0.0
+#
+# Then you'll be able to see the app at localhost:3000 in your browser.
