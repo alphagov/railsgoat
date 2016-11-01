@@ -5,7 +5,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.define "railsgoat" do |rg|
     rg.vm.box = 'railsgoat'
-    rg.vm.box_url = 'https://s3-eu-west-1.amazonaws.com/govuk-2016-06-13-security-workshop/railsgoat.box'
+    rg.vm.box_url = 'https://s3-eu-west-1.amazonaws.com/govuk-2016-06-13-security-workshop/govuk-2016-11-04-security-workshop.box'
   end
 
 end
