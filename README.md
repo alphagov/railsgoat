@@ -66,8 +66,11 @@ $ vagrant up
     railsgoat: Container created: 3084633a81675346
 ==> railsgoat: Starting container...
 ==> railsgoat: Provisioners will not be run since container doesn't support SSH.
-$
+$ vagrant ssh
+vagrant $ cd /vagrant
+vagrant $ bundle exec rails server -b 0.0.0.0
 ```
+
 Once you see the preceeding message Railsgoat is running on your localhost on port 3000.
 
 Open your favorite browser, navigate to `http://localhost:3000` and start hacking!
